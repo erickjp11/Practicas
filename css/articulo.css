@@ -1,6 +1,6 @@
 article {
-	width:1500px;
-	height:600px;
+	width:1000px;
+	height:520px;
 	border:2px solid #275A95;
 	background-color:#BCCACE;
 	position:relative;
@@ -18,14 +18,14 @@ div.descripcion {
 	position:absolute;
 	top:200px;
 	bottom:0;
-	left:0;
-	right:100px;
+	left:700px;
+	right:0;
 }
 
 .tituloarticulo {
 	font:normal normal 24px quicksand;
 	color:#1C12DC;
 	letter-spacing:4px;
-	text-align:center;
+	text-align:left;
 }
 
