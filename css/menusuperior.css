@@ -1,0 +1,9 @@
+li {
+transition: 1.5s ease;
+cursor:pointer; cursor:hand;
+}
+
+li:hover {
+transform:scale(1.5);
+}
+
