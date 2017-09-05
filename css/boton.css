@@ -9,4 +9,8 @@
     border-radius: 6px;
     border: 2px solid #0016b0;
   }
+  .boton:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
 </style>
