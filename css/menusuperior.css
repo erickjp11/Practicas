@@ -1,9 +1,23 @@
 li {
-transition: 1.5s ease;
-cursor:pointer; cursor:hand;
+	transition: 1.5s ease;
+	cursor:pointer; cursor:hand;
 }
 
 li:hover {
-transform:scale(1.5);
+	transform:scale(1.5);
 }
 
+.menuprincipal {
+	font-family: 'Verdana';
+	font-style: medium;
+	font-weight: 600;
+	height:30px;
+	color:#1C12DC;
+	background-color: #DACC0C;
+	border: 2px solid #A69B03;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
