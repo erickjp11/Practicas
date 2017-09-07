@@ -15,3 +15,11 @@ header a {
 	color: black;
 	margin: 10px;
 }
+
+header img {
+	border: 2px solid black;
+	color: black;
+	margin: 10px;
+	height:90px;
+	background-image: url("imagenes/logotipo.jpeg");
+}
