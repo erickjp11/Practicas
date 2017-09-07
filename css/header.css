@@ -1,0 +1,17 @@
+header {
+	font-family: 'Verdana';
+	font-style: medium;
+	font-weight: 600;
+	height:100px;
+	background-color: #F7FE2E;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+header a {
+	border: 2px solid black;
+	color: black;
+	margin: 10px;
+}
