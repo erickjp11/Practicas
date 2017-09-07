@@ -1,0 +1,18 @@
+.copyright{
+  height:80px;
+	color:white;
+	background-color: black;
+	border: 2px solid black;
+  		display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.copyright p{
+  font-size: 14px;
+  font-family: "Verdana";
+  font-style:medium;
+  color:white;
+}
