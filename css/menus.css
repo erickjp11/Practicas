@@ -8,7 +8,7 @@
 	color:#1C12DC;
 	background-color: #DACC0C;
 	border: 2px solid #A69B03;
-    	display: flex;
+  		display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -19,23 +19,24 @@
 	font-family: 'Verdana';
 	font-style: medium;
 	font-weight: 600;
-	height:80px;
-	color:#1C12DC;
+	height:170px;
+	color:#000000;
 	background-color: #DACC0C;
 	border: 2px solid #A69B03;
     	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: center;
+	align-items: flex-start;
 }
 
-li {
+nav {
+	text-align: left;
 	transition: 1.5s ease;
-	cursor:pointer; cursor:hand;
+	cursor:pointer;
+	cursor:hand;
 }
 
 li:hover {
 	transform:scale(1.5);
 }
-
