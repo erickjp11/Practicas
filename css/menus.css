@@ -1,9 +1,9 @@
 .menuprincipal {
-	font-family: 'Verdana';
+	font-family: NanumGothic;
 	font-style: medium;
-	font-weight: 600;
+	font-weight:lighter;
 	height:30px;
-	color:#1C12DC;
+	color:#000000;
 	background-color: #F7FE2E;
 	border: 2px solid black;
   		display: flex;
@@ -14,9 +14,9 @@
 }
 
 .menuinferior {
-	font-family: "Verdana";
+	font-family: NanumGothic;
+	font-weight: lighter;
 	font-style: medium;
-	font-weight: 600;
 	height:170px;
 	width: auto;
 	color:#000000;
@@ -29,7 +29,7 @@
 }
 
 .menuinferior li{
-	font-family: cursive;
+	font-family: NanumGothic;
 	font-weight: lighter;
 }
 
