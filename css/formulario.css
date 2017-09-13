@@ -1,0 +1,26 @@
+h1 {
+  color: white;
+}
+
+form {
+  height: 600px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+form label{
+  color:white;
+  font-size: 14px;
+  font-family: NanumGothic;
+	font-weight: lighter;
+}
+
+button{
+  background-color: #08298A;
+  color: white;
+  font-size: 17px;
+  font-family: NanumGothic;
+}

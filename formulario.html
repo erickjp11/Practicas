@@ -4,27 +4,30 @@
         <meta charset="utf-8">
         <link rel = "stylesheet" type = "text/css" href = "css/header.css" >
         <link rel = "stylesheet" type = "text/css" href = "css/body.css" >
-        <link rel = "stylesheet" type = "text/css" href = "css/tituloFormulario.css" >
+        <link rel = "stylesheet" type = "text/css" href = "css/formulario.css" >
         <title>Registrate en Mercado UDG</title>
   </head>
   <body>
     <header>
-        <img src="imagenes/logotipo.jpeg" class="header">
+        <img src="imagenes/logotipo.jpeg" >
     </header>
 
-      <main class="tituloFormulario">
+      <main>
         <h1>Crear una cuenta</h1>
       </main>
 
-      <section>
+
         <form>
-          <input type="text" placeholder="Nombre" id="nombre" name="nombre">
-          <input type="text" placeholder="Apellidos" id="apellidos" name="apellidos">
-          <input type="email" placeholder="Correo electronico" id="correo" name="correo">
-          <input type="password" placeholder="Contraseña" id="contrasena" name="contrasena">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre">
+          <label for="apellidos">Apellidos</label>
+          <input type="text" id="apellidos" name="apellidos">
+          <label for="correo">Correo electronico</label>
+          <input type="email" placeholder="ejem:nombre@alumnos.udg.mx" id="correo" name="correo">
+          <label for="contrasena">Contraseña</label>
+          <input type="password" id="contrasena" name="contrasena">
           <button type="submit">Crea cuenta</button>
         </form>
-      </section>
 
 
   </body>

@@ -3,7 +3,7 @@ header {
 	font-weight: lighter;
 	font-style: medium;
 	height:100px;
-	background-color: #F7FE2E;
+	background-color: #F4FA58;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
@@ -20,5 +20,6 @@ header a {
 header img {
 	margin: 10px;
 	height:90px;
+	border-style: outset red;
 	background-image: url("imagenes/logotipo.jpeg");
 }
