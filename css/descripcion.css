@@ -1,36 +1,30 @@
-body{
+body {
   background-color: black;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
 }
-
 
 article{
   margin-left: 200px;
   margin-top: 50px;
-  width: 500px;
+  width: 600px;
   height: 300px;
+  border:20px solid white;
   background-color: white;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 h1{
-  padding-left: 50px;
-  padding-top: 50px;
   font-family: NanumGothic;
-	font-weight: lighter;
+  font-weight: lighter;
   color: black;
 }
 
 p{
-  padding-left: 50px;
-  padding-top: 20px;
   font-family: NanumGothic;
-	font-weight: lighter;
+  font-weight: lighter;
   color: black;
-}
+  text-align: justify;
 }

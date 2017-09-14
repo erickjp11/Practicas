@@ -33,11 +33,12 @@
 	font-weight: lighter;
 }
 
-nav p,li {
+nav p,li,a{
 	text-align: left;
 	transition: 1.5s ease;
 	cursor:pointer;
 	cursor:hand;
+	text-decoration: none;
 }
 
 nav li:hover {
