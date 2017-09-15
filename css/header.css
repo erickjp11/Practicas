@@ -8,16 +8,22 @@ header {
 }
 
 header a {
-	font-size: 14px;
+	font-size: 16px;
 	font-family: NanumGothic;
 	font-weight: lighter;
 	color: black;
 	margin: 10px;
 	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px 5px 5px 5px;
 }
 
 header img {
 	margin: 10px;
 	height:90px;
 	background-image: url("imagenes/logotipo.jpeg");
+	border-radius: 10px;
+	box-shadow: 0 0 15px black;
+	background: black;
+	align-self:auto;
 }

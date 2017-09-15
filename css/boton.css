@@ -1,15 +1,17 @@
   .boton{
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-    background-color: #1883ba;
-    border-radius: 6px;
-    border: 2px solid #0016b0;
+ border: none;
+ background: #2E2E2E;
+ color: #F4FA58;
+ padding: 5px;
+ font: normal normal 18px NanumGot;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
   }
   
   .boton:hover{
-    color: #1883ba;
-    background-color: #ffffff;
+ background: #F4FA58;
+ color: #2E2E2E;
+ box-shadow: inset 0 0 0 3px #2E2E2E;
   }
