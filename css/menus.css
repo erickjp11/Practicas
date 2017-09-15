@@ -33,7 +33,7 @@
 	font-weight: lighter;
 }
 
-nav p {
+nav p,li {
 	text-align: left;
 	transition: 1.5s ease;
 	cursor:pointer;
@@ -42,4 +42,8 @@ nav p {
 
 nav li:hover {
 	transform:scale(1.2);
+}
+
+.social {
+	justify-content: space-between;
 }

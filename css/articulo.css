@@ -1,30 +1,29 @@
 article {
-	width:980px;
-	height:520px;
+	width:500px;
+	height:320px;
 	border:2px solid #275A95;
 	background-color:#BCCACE;
-	position:relative;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
 }
 
-img {
-	position:absolute;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
+article img {
+	width: 200px;
+	height: 200px;
+
+	justify-content: flex-start;
 }
 
 div.descripcion {
-	position:absolute;
-	top:200px;
-	bottom:0;
-	left:700px;
-	right:0;
+	text-align: right;
 }
 
 .tituloarticulo {
-	font:normal normal 24px quicksand;
+	font:normal normal 14px NanumGot;
 	color:#1C12DC;
 	letter-spacing:4px;
-	text-align:left;
+	text-align:right;
 }
