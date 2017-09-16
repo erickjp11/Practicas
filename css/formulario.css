@@ -21,10 +21,12 @@ form label{
 }
 
 button{
-  background-color: #08298A;
+  background-color: #0080FF;
   color: white;
   font-size: 17px;
   font-family: NanumGothic;
+  border-radius: 10px;
+	box-shadow: 0 0 15px black;
   margin-top:18px;
   width: 100px;
 }

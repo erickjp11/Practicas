@@ -1,8 +1,7 @@
 article {
-	width:600px;
+	width:450px;
 	height:300px;
-	border:2px solid black;
-	background-color:red;
+	background-color:white;
 	margin: 20px 15px 20px 15px;
 	display: flex;
 	flex-direction: column;
@@ -12,7 +11,7 @@ article {
 }
 
 article img {
-	width: 200px;
+	width: 170px;
 	height: 200px;
 }
 
@@ -21,7 +20,7 @@ div.descripcion {
 }
 
 .tituloarticulo {
-	font:normal normal 20px NanumGot;
+	font:normal normal 14px NanumGothic;
 	color:black;
 	letter-spacing:4px;
 	text-align:left;

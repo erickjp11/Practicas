@@ -5,8 +5,7 @@
 	height:30px;
 	color:#000000;
 	background-color: #F4FA58;
-	border: 2px solid black;
-  		display: flex;
+  display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -21,7 +20,7 @@
 	width: auto;
 	color:#000000;
 	background-color: #F4FA58;
-    	display: flex;
+  display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -31,6 +30,7 @@
 .menuinferior li{
 	font-family: NanumGothic;
 	font-weight: lighter;
+	font-size: 14px;
 }
 
 nav p,li,a{
@@ -45,6 +45,11 @@ nav li:hover {
 	transform:scale(1.2);
 }
 
-.social {
-	justify-content: space-between;
+li a{
+	color:#000000;
+	font-size: 14px;
+}
+
+.menuprincipal{
+	font-size: 14px;
 }
