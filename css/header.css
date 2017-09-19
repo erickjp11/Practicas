@@ -18,6 +18,11 @@ header a {
 	border-radius: 5px 5px 5px 5px;
 }
 
+.perfil{
+	border: 0px solid black;
+	border-radius: 5px 5px 5px 5px;
+}
+
 header img {
 	margin: 10px;
 	height:90px;
