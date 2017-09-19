@@ -1,0 +1,13 @@
+.negritas {
+  color:black;
+  font-weight: bold;
+  font-family: NanumGothic;
+  font-size: 25px;
+}
+
+p {
+    color:#635755;
+    font-family: NanumGothic;
+    font-weight: 600;
+    font-size: 15px;
+}
