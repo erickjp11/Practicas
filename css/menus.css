@@ -53,3 +53,7 @@ li a{
 .menuprincipal{
 	font-size: 14px;
 }
+
+.sociales li{
+	list-style-type: none;
+}

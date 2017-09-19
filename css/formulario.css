@@ -1,11 +1,15 @@
 h1 {
-  color: white;
+  font-family: NanumGothic;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
 }
 
 form {
   width: 300px;
   height: 600px;
-  padding: 100px;
+  margin-left: 350px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -13,7 +17,7 @@ form {
 }
 
 form label{
-  color:white;
+  color:black;
   font-size: 14px;
   font-family: NanumGothic;
   font-weight: lighter;
