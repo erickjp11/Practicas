@@ -5,9 +5,27 @@
   font-size: 25px;
 }
 
+body {
+  background-color: #F2F2F2;
+}
+
+section {
+  background-color:white;
+  width: 500px;
+  height:300px;
+  margin-left: 250px;
+  margin-top: 150px;
+}
+
+h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+
 p {
     color:#635755;
     font-family: NanumGothic;
+    padding: 20px;
     font-weight: 600;
     font-size: 15px;
 }

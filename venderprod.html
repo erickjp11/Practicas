@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <link rel = "stylesheet" type = "text/css" href = "css/header.css" >
         <link rel = "stylesheet" type = "text/css" href = "css/body.css" >
-        <link rel = "stylesheet" type = "text/css" href = "css/formulario.css" >
+        <link rel = "stylesheet" type = "text/css" href = "css/venderproducto.css" >
         <title>Registrate en Mercado UDG</title>
   </head>
   <body>
@@ -21,17 +21,22 @@
           <input type="text" id="nombre" name="nombre">
           <label for="descripcion">Descripcion</label>
           <input type="text" id="descripcion" name="descripcion">
-          <input type="radio" id="n" name="status" value="nuevo">
-          <label for="N">Nuevo</label>
-          <input type="radio" id="u" name="status" value="usado">
-          <label for="U">Usado</label>
+          <div class="opcion">
+            <label for="status">Estado del producto</label>
+            <input type="radio" id="n" name="status" value="nuevo">
+            <label for="N">Nuevo</label>
+            <input type="radio" id="u" name="status" value="usado">
+            <label for="U">Usado</label>
+          </div>
           <label for="precio">Precio</label>
           <input type="text" id="precio" name="precio">
-          <input type="file" name="imagen" size="22px">
+          <div class="img">
+            <label for="imagen">Sube una foto real de tu producto<label>
+            <input type="file" name="imagen" size="22px">
+          </div>
           <button type="submit">Publicar</button>
         </form>
 
-
-  </body>
+      </body>
 
 </html>

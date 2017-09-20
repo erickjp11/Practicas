@@ -29,6 +29,11 @@ p {
     font-size: 15px;
 }
 
+strong{
+  font-weight: bolder;
+  color: red;
+}
+
 h1 {
   color:#BD2B0B;
   font-weight: bold;

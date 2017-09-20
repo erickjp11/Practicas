@@ -21,13 +21,16 @@ form label{
   font-size: 14px;
   font-family: NanumGothic;
   font-weight: lighter;
+  margin-top: 18px;
   width: 300px;
 }
-
-form select{
+.opcion {
   margin-top: 18px;
 }
 
+.img {
+  margin-top: 18px;
+}
 button {
   background: #2E2E2E;
   color: #F4FA58;
