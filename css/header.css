@@ -7,6 +7,13 @@ header {
 	align-items: center;
 }
 
+.boton1 {
+	margin-left: 350px;
+}
+
+.boton2 {
+	margin-left: 20px;
+}
 header a {
 	font-size: 16px;
 	font-family: NanumGothic;
