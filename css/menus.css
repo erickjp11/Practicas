@@ -2,7 +2,7 @@
 	font-family: NanumGothic;
 	font-style: medium;
 	font-weight:lighter;
-	height:30px;
+	height: auto;
 	color:#000000;
 	background-color: #F4FA58;
   display: flex;
@@ -16,7 +16,6 @@
 	font-family: NanumGothic;
 	font-weight: lighter;
 	font-style: medium;
-	height:170px;
 	width: auto;
 	color:#000000;
 	background-color: #F4FA58;

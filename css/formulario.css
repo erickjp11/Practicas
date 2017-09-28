@@ -1,3 +1,30 @@
+header {
+	height:100px;
+	background-color: #F4FA58;
+  display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+header img {
+	height: 90px;
+	margin-left: 10px;
+	background-image: url("imagenes/logotipo.jpeg");
+	border-radius: 7px;
+	box-shadow: 0 0 15px black;
+	background: black;
+}
+
+span{
+  margin-left: auto;
+	font-size: 20px;
+	font-family: NanumGothic;
+	font-weight: bolder;
+	color: black;
+}
+
 h1 {
   font-family: NanumGothic;
   font-size: 30px;
@@ -7,9 +34,8 @@ h1 {
 }
 
 form {
-  width: 300px;
   height: 600px;
-  margin-left: 470px;
+  margin-left: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
