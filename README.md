@@ -1,6 +1,22 @@
+# Equipo 
+
+EMLogic
+
 # Mercado UDG
 
 Mercado UDG es un sitio destinado a la compra-venta de productos usados o nuevos dentro de la de red universitaria. La metodologia del sitio se basa en la creacion de una cuenta, misma que tendra que ser creada con un nombre de usuario y un correo el cual tiene que tener el dominio "alumnos.udg.mx" con esto nos aseguramos de que los usuarios tanto vendedores como compradores sean alumnos de alguno de los centros universitarios de la Universidad de Guadalajara.
+
+# Versiones
+
+Para el versionado de nuestro proyecto utilizamos GitHub
+
+# Repositorio
+
+https://github.com/erickjp11/Practicas.git
+
+# Demo
+
+mercadoudgmx.byethost8.com
 
 # Autores
 ```
