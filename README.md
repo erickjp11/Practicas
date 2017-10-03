@@ -14,13 +14,13 @@ La funcionalidad principal del sistema es crear una cuenta para iniciar en la co
 
 Ingresando con tu cuenta, podrás realizar diferentes acciones:
 
-Realizar la compra de un producto.
-Poner a la venta algún producto, especificando todos los detalles que se piden. 
-Ver los diferentes productos en existencia entre todo el catálogo.
-Ver el perfil de cada usuario en el sistema (limitado a foto de perfil, nombre y centro universitario).
-Opción para recuperar contraseña.
-Opción para poder modificar el perfil.
-Contacto con un vendedor mediante redes sociales o correo electrónico.  
+- Realizar la compra de un producto.
+- Poner a la venta algún producto, especificando todos los detalles que se piden. 
+- Ver los diferentes productos en existencia entre todo el catálogo.
+- Ver el perfil de cada usuario en el sistema (limitado a foto de perfil, nombre y centro universitario).
+- Opción para recuperar contraseña.
+- Opción para poder modificar el perfil.
+- Contacto con un vendedor mediante redes sociales o correo electrónico. 
 
 
 Software empleado.
@@ -41,7 +41,7 @@ https://github.com/erickjp11/MercadoUDG.git
 
 Demo.
 ------------------
-mercadoudgmx.byethost8.com
+http://mercadoudgmx.byethost8.com
 
 
 Autores.
