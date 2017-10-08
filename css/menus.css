@@ -1,10 +1,12 @@
 .menuprincipal {
-	font-family: NanumGothic;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
 	font-style: medium;
 	font-weight:lighter;
-	height: auto;
+	height: 50px;
 	color:#000000;
 	background-color: #F4FA58;
+	border-radius: 5px;
   display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -13,12 +15,13 @@
 }
 
 .menuinferior {
-	font-family: NanumGothic;
+	font-family: 'Raleway', sans-serif	;
 	font-weight: lighter;
 	font-style: medium;
 	width: auto;
 	color:#000000;
 	background-color: #F4FA58;
+	border-radius: 5px;
   display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -27,8 +30,7 @@
 }
 
 .menuinferior li{
-	font-family: NanumGothic;
-	font-weight: lighter;
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 }
 
@@ -53,6 +55,6 @@ li a{
 	font-size: 14px;
 }
 
-.sociales li{
-	list-style-type: none;
+.sociales {
+	list-style: none;
 }

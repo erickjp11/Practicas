@@ -1,29 +1,27 @@
 header {
-	height:100px;
-	background-color: #F4FA58;
+  width: 100%;
+  height:auto;
+  background-color: #F4FA58;
+  border-radius: 5px;
   display: flex;
-	flex-wrap: nowrap;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
 }
 
-header img {
-	height: 90px;
-	margin-left: 10px;
-	background-image: url("imagenes/logotipo.jpeg");
-	border-radius: 7px;
-	box-shadow: 0 0 15px black;
-	background: black;
+header img{
+  height: 90px;
+  border-radius: 5px;
 }
 
-span{
-  margin: auto;
-	font-size: 20px;
-	font-family: NanumGothic;
-	font-weight: bolder;
-	color: black;
+header span{
+  font-family: 'Raleway', sans-serif;
+  margin-left:200px;
+  line-height: 90px;
+  font-size: 20px;
 }
+	
 
 section {
 	margin: 20px 15px 20px 15px;

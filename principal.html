@@ -2,40 +2,38 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Mercado UDG</title>
-        <link rel = "stylesheet" type = "text/css" href = "css/body.css" >
 		    <link rel = "stylesheet" type = "text/css" href = "css/titulo.css" >
-		    <link rel = "stylesheet" type = "text/css" href = "css/articulo.css" >
+        <link rel = "stylesheet" type = "text/css" href = "css/font-awesome.min.css">
 		    <link rel = "stylesheet" type = "text/css" href = "css/menus.css" >
-        <link rel = "stylesheet" type = "text/css" href = "css/footer.css" >
         <link rel = "stylesheet" type = "text/css" href = "css/copyright.css" >
-      	<link rel = "stylesheet" type = "text/css" href = "css/headerprincipal.css" >
       	<link rel = "stylesheet" type = "text/css" href = "css/boton.css" >
-        <link rel = "stylesheet" type = "text/css" href = "css/centros.css" >
       	<link rel = "stylesheet" type = "text/css" href = "css/buscador.css" >
       	<link rel = "stylesheet" type = "text/css" href = "css/principal.css" >
+        <link rel = "stylesheet" type = "text/css" href = "css/productos.css" >
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     </head>
 
     <body>
       <header>
         <div class="logo">
-	        <img src="imagenes/logotipo.jpeg">
+	        <img src="img/logotipo.jpeg">
         </div>
+        <span>Mercado UDG</span>
+        <nav>
         <div class="boton1">
-          <a href="venderprod.html" class="boton">Vender un producto</a>
+          <a href="vender_producto.html">Vender un producto</a>
         </div>
         <div class="fotito">
-          <a href="perfil.html"> <img  src="imagenes/fotoperfil.jpg"> </a>
-        </div>  
-        <div class="boton2">
-          <a href="index.html" class="boton">Salir</a>
+          <a href="perfil.html"> <img  src="img/fotoperfil.jpg"> </a>
         </div>
+        <div class="boton2">
+          <a href="index.html">Salir</a>
+        </div>
+      </nav>
       </header>
 
-      <section class="titulos">
-          <h1>Mercado UDG</h1>
+        <div class="contenedor_principal">
           <div class="buscador">
     		    <div class="buscador-estilo">
     			    <form class="buscador-forma" action="#" method="post">
@@ -46,7 +44,6 @@
     			   </form>
     		   </div>
           </div>
-      </section>
 
 	  <nav>
 	      <ul class="menuprincipal">
@@ -56,62 +53,87 @@
 	      </ul>
 	    </nav>
 
-		<aside>
-      <h3>Alumnos registrados</h3>
-      <ul>
-        <li>Alonso Martinez</li>
-        <li>Erick Jimenez</li>
-        <li>Ivan Lomeli</li>
-        <li>Alejandra Rodriguez</li>
-        <li>Jose Jauregui</li>
-      </ul>
-    </aside>
-
-	  <section class="cuerpoprincipal">
-	    <article>
-		    <img src="imagenes/camara.png">
-		    <div class="descripcion">
-			    <p class="tituloarticulo">Cámara fotografica</p>
-			    <p>25mpx</p>
-			    <p>Marca: Nikon</p>
+ <section class="cuerpoprincipal">
+   <table>
+      <tbody>
+        <tr>
+        <td class="p1">
+	         <figure>
+		           <img src="img/camara.png">
+           </figure>
+		         <div class="descripcion">
+			            <p class="tituloarticulo">Cámara fotografica</p>
+			            <p>25mpx</p>
+			            <p>Marca: Nikon</p>
 			    <a href="detalles.html" class="boton">Detalles</a>
 				  <a href="comprarproducto.html" class="boton">Comprar</a>
-		    </div>
-	    </article>
-	  </section>
+		        </div>
+	       </figure>
+       </td>
+    <td class= "p2">
+      <figure>
+        <img src="img/rotulador.jpg">
+          </figure>
+    <div class="descripcion">
+      <p class=" tituloarticulo">Rotuladores</p>
+      <p>25 piezas</p>
+      <p>Marca: Stabilo</p>
+      <a href="detalles.html" class="boton">Detalles</a>
+      <a href="comprarproducto.html" class="boton">Comprar</a>
+    </div>
+  </td>
+  <td class="p3">
+    <figure>
+        <img src="img/libroquimica.jpg">
+    </figure>
+      <div class="descripcion">
+           <p class="tituloarticulo">Cámara fotografica</p>
+           <p>25mpx</p>
+           <p>Marca: Nikon</p>
+   <a href="detalles.html" class="boton">Detalles</a>
+   <a href="comprarproducto.html" class="boton">Comprar</a>
+     </div>
+  </figure>
+</td></tr>
 
-    <nav class="centros">
-      <span>Centros Universitarios</span>
-      <img title="Centro Universitario de Artes, Arquitectura y diseño" src="imagenes/cuaad.jpg" alt="Logo CUADD">
-      <img title="Centro Universitario de Ciencias Exactas e Ingenierías" src="imagenes/cucei.png" alt="Logo CUCEI">
-      <img title="Centro Universitario de Ciencias Biológicas y Agropecuarias" src="imagenes/cucba.jpg" alt="Logo CUCBA">
-      <img title="Centro Universitario de Ciencias Sociales y Humanitarias" src="imagenes/cucsh.jpg" alt="Logo CUCSH">
-      <img title="Centro Universitario de Ciencias de la Salud" src="imagenes/cucs_logo.jpg" alt="Logo CUCS">
-      <img title="Centro Universitario de Ciencias Económico-Administrativas" src="imagenes/logo_cucea.jpg" alt="Logo CUCEA">
-      <img title="Centro Universitario de Tonalá" src="imagenes/cut.jpg" alt="Logo CUT">
-    </nav>
+    </tbody>
+  </table>
+	  </section>
 
     <footer>
       <nav class="menuinferior">
         <ul>
   		    <span>MERCADO UDG</span>
-          <li><a href="descripcion.html">¿Quiénes somos?</a> </li>
+          <li><a href="desc_pagina.html">¿Quiénes somos?</a> </li>
   		  </ul>
         <ul>
+          <span>Universidades<span>
+            <li> CUAAD</li>
+              <li> CUCBA </li>
+        <li> CUCEA </li>
+        <li> CUCEI </li>
+        <li>  CUCS </li>
+        <li> CUCSH </li>
+      <li> CUTonala </li>
+        </ul>
+        <ul>
   		    <span>Ayuda</span>
-          <li> <a href="comocomprar2.html">Cómo comprar?</a> </li>
-          <li> <a href="comovender2.html"> Cómo vender?</a> </li>
+          <li> <a href="como_comprar.html">Cómo comprar?</a> </li>
+          <li> <a href="como_vender.html"> Cómo vender?</a> </li>
           <li> <a href="terminos.html">Terminos y condiciones</a> </li>
   		  </ul>
         <ul>
           <span>Redes sociales</span>
-          <div class="sociales">
-            <li> <a href="https://twitter.com/mercaudg" > <i class="fa fa-twitter-square" style="font-size:30px;color:#0EDEEF"> </i> </a> </li>
-            <li> <a href="https://facebook.com"> <i class="fa fa-facebook-square" style="font-size:30px;color:blue"></i> </a> </li>
+          <div class="tt">
+            <li> <a href="https://twitter.com/mercaudg" target="_blank" > <i class="fa fa-twitter-square"> </i> </a> </li>
+          </div>
+          <div class="fb">
+            <li> <a href="https://facebook.com" target="_blank"> <i class="fa fa-facebook-square"></i> </a> </li>
           </div>
         </ul>
       </nav>
         <div class="copyright">
+          <p>Derechos Reservados ®</p>
           <p>Hecho por Erick Jiménez y Mariana Lomelí</p>
           <p>GDL, Jalisco, Mexico</p>
         <div>

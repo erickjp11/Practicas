@@ -22,7 +22,11 @@ header span{
   font-size: 20px;
 }
 
-.caja	 {
+body{
+  background-color: black;
+}
+
+.contenedor {
   margin-top: auto;
   background-color:black ;
   display: flex;
@@ -31,45 +35,41 @@ header span{
   align-items: center;
 }
 
-body {
-  background-color: black;
+section {
+  width: 70%;
+  margin-top: 150px;
+  border-radius: 10px;
+  background-color: #2E2E2E;
+}
+
+form  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+form span {
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+form p {
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
 }
 
 ::placeholder {
   font-size: 20px;
 }
 
-section {
-  width: 600px;
-  margin-top: 150px;
-  border-radius: 10px;
-  background-color: #2E2E2E;
-}
-
-form {
-	width: auto;
-	height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-	align-items: center;
-}
-
-form span{
-  font-family: 'Raleway', sans-serif;
-  color: #FFFFFF;
-  margin-left: 20px;
-}
-
-h1,h2 {
-  font-family: 'Raleway', sans-serif;
-  color: #FFFFFF;
-  letter-spacing: 3px;
-  text-align: center;
-}
-
 button {
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 10px 300px;
   width: 80px;
 }
 
@@ -79,27 +79,4 @@ input {
   height: 40px;
   border-radius: 5px;
   margin: 30px 150px;
-}
-
-select {
-  font-family: 'Raleway', sans-serif;
-  width: 60%;
-  height: 40px;
-  border-radius: 5px;
-  margin: 30px 150px;
-}
-
-form label{
-	color:white;
-	margin-left: 150px;
-}
-
-.opcion {
-	margin-top: 18px;
-	text-align: center;
-}
-
-.tituloform {
-	color: white;
-	font-size: 25px;
 }

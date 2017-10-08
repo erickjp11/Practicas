@@ -5,6 +5,7 @@ header {
   border-radius: 5px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
   position: fixed;
@@ -17,12 +18,12 @@ header img{
 
 header span{
   font-family: 'Raleway', sans-serif;
-  margin-left:300px;
+  margin-left:500px;
   line-height: 90px;
   font-size: 20px;
 }
 
-.caja	 {
+.cuerpo {
   margin-top: auto;
   background-color:black ;
   display: flex;
@@ -31,34 +32,48 @@ header span{
   align-items: center;
 }
 
-body {
+body{
   background-color: black;
 }
 
-::placeholder {
+::placeholder{
   font-size: 20px;
 }
 
 section {
-  width: 600px;
+  width: auto ;
   margin-top: 150px;
   border-radius: 10px;
   background-color: #2E2E2E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 form {
-	width: auto;
-	height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-	align-items: center;
+  justify-content: center;
 }
 
-form span{
+nav span {
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  margin-left: 80px;
+}
+
+nav a  {
   font-family: 'Raleway', sans-serif;
   color: #FFFFFF;
   margin-left: 20px;
+  text-decoration: underline;
+}
+
+.reg  a{
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  text-decoration: underline;
+  margin-right: 50px;
 }
 
 h1,h2 {
@@ -69,7 +84,7 @@ h1,h2 {
 }
 
 button {
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 10px 300px;
   width: 80px;
 }
 
@@ -79,27 +94,4 @@ input {
   height: 40px;
   border-radius: 5px;
   margin: 30px 150px;
-}
-
-select {
-  font-family: 'Raleway', sans-serif;
-  width: 60%;
-  height: 40px;
-  border-radius: 5px;
-  margin: 30px 150px;
-}
-
-form label{
-	color:white;
-	margin-left: 150px;
-}
-
-.opcion {
-	margin-top: 18px;
-	text-align: center;
-}
-
-.tituloform {
-	color: white;
-	font-size: 25px;
 }

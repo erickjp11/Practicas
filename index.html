@@ -1,88 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Mercado UDG</title>
-        <link rel = "stylesheet" type = "text/css" href = "css/body.css" >
-		    <link rel = "stylesheet" type = "text/css" href = "css/articulo.css" >
-		    <link rel = "stylesheet" type = "text/css" href = "css/menus.css" >
-        <link rel = "stylesheet" type = "text/css" href = "css/footer.css" >
-        <link rel = "stylesheet" type = "text/css" href = "css/copyright.css" >
-      	<link rel = "stylesheet" type = "text/css" href = "css/header.css" >
-      	<link rel = "stylesheet" type = "text/css" href = "css/boton.css" >
-  	    <link rel = "stylesheet" type = "text/css" href = "css/centros.css" >
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mercado UDG</title>
+    <link rel = "stylesheet" type = "text/css" href = "css/copyright.css" >
+    <link rel = "stylesheet" type = "text/css" href = "css/estilo_index.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/boton.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
 
-    <body>
-          <header>
-	           <img src="imagenes/logotipo.jpeg" alt="Logo Mercado">
-             <span>Mercado UDG</span>
-             <div class="botones">
-               <a href="formulario.html" class="boton">Registrarse</a>
-               <a href="iniciosesion.html" class="boton">Iniciar Sesión</a>
-            </div>
-          </header>
+  <body>
+    <header>
+      <img src="img/logotipo.jpeg" alt="Logo Mercado">
+      <span>Mercado UDG</span>
+    </header>
 
-	         <nav>
-	    	       <ul class="menuprincipal">
-                 <li>Productos recientes</li>
-                 <li>Artículos en venta(usados)</li>
-                 <li>Artículos en venta(nuevos)</li>
-	             </ul>
-	         </nav>
-
-	         <article>
-		           <img src="imagenes/camara.png" alt="Articulo">
-		           <div class="descripcion">
-			           <p class="tituloarticulo">Cámara fotografica</p>
-			           <p>25mpx</p>
-			           <p>Marca: Nikon</p>
-			           <a href="iniciosesion.html" class="boton">Detalles</a>
-				         <a href="iniciosesion.html" class="boton">Comprar</a>
-		           </div>
-	         </article>
-
-          <nav class="centros">
-            <span>Centros Universitarios</span>
-            <img title="Centro Universitario de Artes, Arquitectura y diseño" src="imagenes/cuaad.jpg" alt="Logo CUADD">
-            <img title="Centro Universitario de Ciencias Exactas e Ingenierías" src="imagenes/cucei.png" alt="Logo CUCEI">
-            <img title="Centro Universitario de Ciencias Biológicas y Agropecuarias" src="imagenes/cucba.jpg" alt="Logo CUCBA">
-            <img title="Centro Universitario de Ciencias Sociales y Humanitarias" src="imagenes/cucsh.jpg" alt="Logo CUCSH">
-            <img title="Centro Universitario de Ciencias de la Salud" src="imagenes/cucs_logo.jpg" alt="Logo CUCS">
-            <img title="Centro Universitario de Ciencias Económico-Administrativas" src="imagenes/logo_cucea.jpg" alt="Logo CUCEA">
-            <img title="Centro Universitario de Tonalá" src="imagenes/cut.jpg" alt="Logo CUT">
-          </nav>
-
-         <footer>
-            <nav class="menuinferior">
-              <ul>
-  		          <span>MERCADO UDG</span>
-            	  <li> <a href="descripcion.html">¿Quiénes somos?</a> </li>
-  		        </ul>
-              <ul>
-  		          <span>Ayuda</span>
-                  <li> <a href="comprar.html">Cómo comprar?</a> </li>
-                	<li> <a href="vender.html"> Cómo vender?</a> </li>
-                	<li> <a href="terminos.html">Terminos y condiciones</a> </li>
-  		       </ul>
-             <ul>
-                <span>Redes sociales</span>
-                  <div class="sociales">
-                    <li>
-                      <a href="https://twitter.com" > <i class="fa fa-twitter-square" style="font-size:30px;color:#0EDEEF"></i> </a>
-                    </li>
-                    <li>
-                      <a href="https://facebook.com"><i class="fa fa-facebook-square" style="font-size:30px;color:blue"></i> </a>
-                    </li>
-                  </div>
-              </ul>
-            </nav>
-              <div class="copyright">
-            	  <p>Hecho por Erick Jiménez y Mariana Lomelí</p>
-            	  <p>GDL, Jalisco, Mexico</p>
-              </div>
-         </footer>
-    </body>
+    <div class="cuerpo">
+      <section class="contenedor">
+        <form>
+          <h1>Bienvenido a Mercado UDG</h1>
+          <h2>Inicia Sesión</h2>
+          <input type="email" id="correo" class="fa" name="" placeholder="&#xf003; Correo">
+          <input type="password" id="contrasena" class="fa" name="" placeholder= "&#xf023; Contraseña">
+          <button class="boton" onclick="window.location.href='principal.html'" type="submit">Entrar</button>
+          </form>
+          <nav>
+          <a href="contrasena.html"> Olvidaste tu contraseña? </a>
+          <span> No tienes una cuenta? </span> <span class="reg"> <a href="crear_cuenta.html">Regístrate.</a> </span>
+        </nav>
+      </section>
+    </div>
+    <footer>
+      <div class="copyright">
+        <p>Derechos Reservados</p>
+        <p>Hecho por Erick Jiménez y Mariana Lomelí</p>
+        <p>GDL, Jalisco, México</p>
+      </div>
+    </footer>
+  </body>
 </html>

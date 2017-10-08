@@ -7,13 +7,14 @@
 	margin: 0;
 	position: static;
 }
-	
+
 .buscador-forma{
 	overflow: hidden;
 	position: relative;
 }
-	
+
 .buscador-contenedor {
+	margin-top: 150px;
 	padding: 0 66px 0 0; /* Right padding for submit button width */
 	overflow: hidden;
 }
@@ -43,7 +44,7 @@
 	-webkit-appearance: none;
 	-moz-appearance: none;
 }
-	
+
 .buscador-enviar {
   position: absolute;
 	right: 0;
@@ -53,7 +54,7 @@
 	height: 60px;
   padding: 0;
   border: none;
-	margin-top: 20px; /* margin-top + border-width */
+	margin-top: 170px; /* margin-top + border-width */
   margin-right: 5px; /* border-width */
 	background: transparent;
   color: #888;
@@ -68,7 +69,7 @@
 }
 
 .buscador-entrada:focus.buscador-enviar {
- 	color: #333; 
+ 	color: #333;
 }
 
 .buscador-enviar:hover {
@@ -77,10 +78,9 @@
 }
 
 ::-webkit-input-placeholder {
-	color: #888;  
+	color: #888;
 }
 
 input:-moz-placeholder {
   color: #888
 }
-

@@ -17,13 +17,13 @@ header img{
 
 header span{
   font-family: 'Raleway', sans-serif;
-  margin-left:300px;
+  margin-left:200px;
   line-height: 90px;
   font-size: 20px;
-}
+} 
 
 body {
-	background-color:black;
+  background-color: black;
 }
 
 .contenedor{
@@ -36,35 +36,31 @@ body {
 }
 
 section {
-	color: white;
 	margin-top: 150px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+  background-color:#2E2E2E;
+  border-radius: 5px;
+  width: 500px;
+  height:300px;
 }
 
-section img {
-	width: 200px;
-	height: 200px;
-}
-
-details {
-	text-align: left;
-}
-
-.nombre {
-	font:normal normal 20px NanumGot;
-	color:black;
-	letter-spacing:4px;
-	text-align:left;
-}
-
-aside {
+h1 {
+	font-family: 'Raleway', sans-serif;
 	color: white;
+	font-size: 23px;
+  /*padding-top: 50px;*/
+  text-align: center;
 }
 
-a {
-	text-decoration:none;
+p {
+    color:white;
+  	font-family: 'Raleway', sans-serif;;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 15px;
+		text-align: justify;
+}
+
+footer {
+  height: 30px;
+  padding-top: 40px;
 }

@@ -3,13 +3,12 @@
  background: #2E2E2E;
  color: #F4FA58;
  padding: 5px;
- font: normal normal 18px NanumGot;
+ font-family: 'Raleway', sans-serif;
  border-radius: 5px;
- position: relative;
  box-sizing: border-box;
  transition: all 500ms ease;
   }
-  
+
   .boton:hover{
  background: #F4FA58;
  color: #2E2E2E;
