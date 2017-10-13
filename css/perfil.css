@@ -55,10 +55,17 @@ details {
 }
 
 .nombre {
-	font:normal normal 20px NanumGot;
-	color:black;
+	font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+	color:white;
 	letter-spacing:4px;
 	text-align:left;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	color:white;
+  text-align: center;
 }
 
 aside {
@@ -67,4 +74,21 @@ aside {
 
 a {
 	text-decoration:none;
+}
+
+.opcperfil {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-style:normal;
+	font-weight: lighter;
+	height: 120px;
+	color: black;
+	background-color: #E2E2E2;
+	border-radius: 5px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items:flex-start;
+	margin: 2px;
 }

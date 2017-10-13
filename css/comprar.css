@@ -17,37 +17,90 @@ header img{
 
 header span{
   font-family: 'Raleway', sans-serif;
-  margin-left:200px;
+  margin-left:300px;
   line-height: 90px;
   font-size: 20px;
 }
-	
+
+.caja	 {
+  margin-top: auto;
+  background-color:black ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: black;
+}
+
+::placeholder {
+  font-size: 20px;
+}
 
 section {
-	margin: 20px 15px 20px 15px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
+  width: 600px;
+  margin-top: 150px;
+  border-radius: 10px;
+  background-color: #2E2E2E;
+}
+
+form {
+	width: auto;
+	height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 	align-items: center;
 }
 
-section img {
-	width: 200px;
-	height: 200px;
+p{
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  margin-left: 20px;
 }
 
-details {
-	text-align: left;
+summary {
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  text-align: center;
 }
 
-.nombre {
-	font:normal normal 20px NanumGot;
-	color:black;
-	letter-spacing:4px;
-	text-align:left;
+button {
+  margin: 20px 0px 10px 0px;
+  width: 80px;
 }
 
-a {
-	text-decoration:none;
+input {
+  font-family: 'Raleway', sans-serif;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 30px 150px;
+} 
+
+select {
+  font-family: 'Raleway', sans-serif;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 30px 150px;
+}
+
+form label{
+	color:white;
+	margin-left: 150px;
+}
+
+.opcion {
+	margin-top: 18px;
+	text-align: center;
+}
+
+.tituloarticulo {
+	color: white;
+	font-size: 25px;
+	text-align: center;
 }
