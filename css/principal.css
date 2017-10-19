@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  height:auto;
+  height:90px ;
   background-color: #F4FA58;
   border-radius: 5px;
   display: flex;
@@ -85,4 +85,29 @@ table {
 	overflow: hidden;
 }
 
-/*imagenes*/
+@media screen and (max-width:400px),(max-width:415px){
+  header {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header img{
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  header span{
+    margin-left:10px;
+    line-height: 50px;
+    font-size: 15px;
+  }
+
+  .fotito img{
+    margin-left: 20px;
+  }
+
+  .boton2 {
+    margin-left: 10px;
+  }
+}

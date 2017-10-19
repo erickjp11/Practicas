@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  height:auto;
+  height:90px ;
   background-color: #F4FA58;
   border-radius: 5px;
   display: flex;
@@ -17,10 +17,10 @@ header img{
 
 header span{
   font-family: 'Raleway', sans-serif;
-  margin-left:200px;
+  margin-left:400px;
   line-height: 90px;
   font-size: 20px;
-} 
+}
 
 body {
   background-color: black;
@@ -47,20 +47,46 @@ h1 {
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 23px;
-  /*padding-top: 50px;*/
   text-align: center;
 }
 
-p {
+section p {
     color:white;
   	font-family: 'Raleway', sans-serif;;
-    padding: 20px;
-    font-weight: 600;
+    padding: 20px;  
     font-size: 15px;
 		text-align: justify;
 }
 
-footer {
-  height: 30px;
-  padding-top: 40px;
+@media screen and (max-width:400px),(max-width:415px){
+  header {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header img{
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  header span{
+    margin-left:70px;
+    line-height: 50px;
+    font-size: 15px;
+  }
+
+  section {
+    width: auto;
+    margin-top:90px;
+}
+
+  h1 {
+    padding-top: 50px;
+    font-size: 15px;
+  }
+
+  section p {
+    font-size: 12px;
+  }
 }

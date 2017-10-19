@@ -16,7 +16,6 @@
 .p1 figure img {
   background-color: white;
 	width: 150px;
-	height: 150px;
 }
 
 .p1 div.descripcion {
@@ -49,7 +48,6 @@
 .p2 figure img {
   background-color: white;
 	width: 150px;
-	height: 150px;
 }
 
 .p2 div.descripcion {
@@ -83,7 +81,6 @@
 .p3 figure img {
   background-color: white;
 	width: 150px;
-	height: 150px;
 }
 
 .p3 div.descripcion {
@@ -97,4 +94,54 @@
   font-style: italic;
 	letter-spacing:4px;
 	text-align:left;
+}
+
+@media screen and (max-width:400px),(max-width:415px) {
+	.p1 {
+		width:300px;
+		height:120px;
+		font-size: 10px;
+	}
+
+	.p1 figure img {
+	  background-color: white;
+		width: 70px;
+	}
+
+	.tituloarticulo{
+		font-size: 12px;
+		letter-spacing: 0px;
+	}
+
+	.p2 {
+		width:300px;
+		height:120px;
+		font-size: 10px;
+	}
+
+	.p2 figure img {
+	  background-color: white;
+		width: 70px;
+	}
+
+	.tituloarticulo{
+		font-size: 12px;
+		letter-spacing: 0px;
+	}
+
+	.p3 {
+		width:300px;
+		height:120px;
+		font-size: 10px;
+	}
+
+	.p3 figure img {
+	  background-color: white;
+		width: 70px;
+	}
+
+	.tituloarticulo{
+		font-size: 12px;
+		letter-spacing: 0px;
+	}
 }

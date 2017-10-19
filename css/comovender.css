@@ -1,6 +1,6 @@
 header {
   width: 100%;
-	height: auto;
+  height:90px;
   background-color: #F4FA58;
   border-radius: 5px;
   display: flex;
@@ -17,16 +17,15 @@ header img{
 
 header span{
   font-family: 'Raleway', sans-serif;
-  margin-left:200px;
+  margin-left: 400px;
   line-height: 90px;
-	margin-top: 0px;
   font-size: 20px;
   color: black;
   text-transform: capitalize;
   font-weight: normal;
 }
 
-.contenedor_princ {
+.contenedor {
   margin-top: auto;
   display: flex;
   flex-direction: column;
@@ -35,31 +34,26 @@ header span{
 }
 
 section {
-  margin-top: 150px;
-	width: 500px;
-  height: 400px;
-	border-radius: 5px;
-  background-color: #2E2E2E;
-	display: flex;
+  height:auto;
+  display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 150px;
+	width: 550px;
+  border-radius: 5px;
+  background-color: #2E2E2E;
 }
 
 body {
   background-color: black;
 }
 
-footer {
-  height: 30px;
-  padding-top: 40px;
-}
-
-span {
+section span {
   color:white;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
-	margin-top: 25px;
+  margin-top: 25px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -72,9 +66,35 @@ section p {
 		text-align: justify;
 }
 
-section h1 {
-  color:white;
-  font-family: font-family: 'Raleway', sans-serif;
-  font-size: 25px;
-	text-align: center;
+@media screen and (max-width:400px),(max-width:415px){
+  header {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header img{
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  header span{
+    margin-left: 70px;
+    line-height: 50px;
+    font-size: 15px;
+  }
+
+  section {
+    margin-top: 100px;
+    width: auto;
+  }
+
+  section span {
+    font-size: 12px;
+  }
+
+  section p {
+    font-size: 10px;
+  }
+
 }

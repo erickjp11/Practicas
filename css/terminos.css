@@ -57,7 +57,7 @@ h1 {
   text-align: center;
 }
 
-p {
+section p {
     color:white;
   	font-family: 'Raleway', sans-serif;;
     padding: 20px;
@@ -66,7 +66,37 @@ p {
 		text-align: justify;
 }
 
-footer {
-  height: 30px;
-  padding-top: 40px;
-}
+@media screen and (max-width:400px),(max-width:415px){
+  header {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header img{
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  header span{
+    margin-left:70px;
+    line-height: 50px;
+    font-size: 15px;
+  }
+
+  section {
+    width: auto;
+    margin-top: 90px;
+  }
+
+  .negritas {
+    font-size: 15px;
+  }
+  
+  section p {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }

@@ -17,7 +17,7 @@ header img{
 
 header span{
   font-family: 'Raleway', sans-serif;
-  margin-left:300px;
+  margin-left:400px;
   line-height: 90px;
   font-size: 20px;
 }
@@ -48,6 +48,11 @@ section {
 section img {
 	width: 200px;
 	height: 200px;
+}
+
+section span {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
 }
 
 details {
@@ -91,4 +96,48 @@ a {
 	justify-content: space-around;
 	align-items:flex-start;
 	margin: 2px;
+}
+
+@media screen and (max-width:400px),(max-width:415px){
+  header {
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  header img{
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  header span{
+    margin-left:75px;
+    line-height: 50px;
+    font-size: 15px;
+  }
+
+  section {
+    width: auto;
+    margin-top: 90px;
+  }
+
+  section img {
+    width: 90px;
+    height: 90px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+
+  .nombre {
+    font-size: 13px;
+  }
+
+  .opcperfil {
+    margin-top: 30px;
+    height: auto;
+    font-size: 12px;
+  }
+
 }

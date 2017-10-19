@@ -80,3 +80,52 @@ input {
   border-radius: 5px;
   margin: 30px 150px;
 }
+
+@media screen and (max-width:400px),(max-width:415px){
+  header {
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  header img{
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  header span{
+    margin-left:70px;
+    line-height: 50px;
+    font-size: 15px;
+  }
+
+
+::placeholder{
+  font-size: 10px;
+}
+
+section {
+  width: auto;
+  margin-top: 150px;
+}
+
+section form span {
+  font-size: 14px;
+}
+
+section form p {
+  font-size: 12px;
+}
+
+button {
+  margin: 20px 0px 10px 140px;
+  font-size: 12px;
+}
+
+input {
+  height: 25px;
+  margin: 15px 80px;
+}
+}
+
+}
