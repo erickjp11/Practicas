@@ -20,7 +20,7 @@ header span{
   margin-left:200px;
   line-height: 90px;
   font-size: 20px;
-} 
+}
 
 body {
   background-color: black;
@@ -47,7 +47,6 @@ h1 {
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 23px;
-  /*padding-top: 50px;*/
   text-align: center;
 }
 
@@ -60,7 +59,35 @@ p {
 		text-align: justify;
 }
 
-footer {
-  height: 30px;
-  padding-top: 40px;
+@media screen and (max-width:400px),(max-width:415px){
+  header {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header img{
+  height: 50px;
+   border-radius: 5px;
+  }
+
+  header span{
+    margin-left:70px;
+    line-height: 50px;
+    font-size: 15px;
+  }
+
+  section {
+    width: auto;
+    margin-top:90px;
 }
+
+  h1 {
+    padding-top: 50px;
+    font-size: 15px;
+  }
+
+  section p {
+    font-size: 12px;
+ }
+ }

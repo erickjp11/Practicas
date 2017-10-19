@@ -77,3 +77,30 @@ li a{
 .sociales {
 	list-style: none;
 }
+
+@media screen and (max-width:400px),(max-width:415px){
+	.menuprincipal{
+		margin-top: 175px;
+	}
+
+	.menuprincipal li a{
+		font-size: 11px;
+	}
+
+	.titulopagina {
+		font-size: 20px;
+		height: 30px;
+	}
+
+	.menuinferior li {
+		font-size: 10px;
+	}
+
+	.menuinferior span {
+		font-size: 12px;
+	}
+
+	.menuinferior a{
+		font-size: 10px;
+	}
+}

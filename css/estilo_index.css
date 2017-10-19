@@ -95,3 +95,60 @@ input {
   border-radius: 5px;
   margin: 30px 150px;
 }
+
+@media screen and (max-width:400px),(max-width:415px){
+  header {
+   height: 50px;
+   display: flex;
+   flex-wrap: nowrap;
+  }
+
+  header img{
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  header span{
+   margin-left:75px;
+   line-height: 50px;
+   font-size: 15px;
+  }
+
+  ::placeholder{
+    font-size: 10px;
+  }
+
+  section {
+    width: auto;
+    margin-top: 90px;
+}
+
+
+  h1,h2 {
+    font-size: 14px;
+  }
+
+  nav span {
+    font-size: 9px;
+    margin-left: 20px;
+  }
+
+  nav a  {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+  .reg  a{
+    margin-right: 15px;
+  }
+
+  button {
+    margin: 20px 0px 10px 130px;
+  }
+
+  input {
+    height: 25px;
+    margin: 30px 70px;
+    font-size: 9px;
+  }
+}
