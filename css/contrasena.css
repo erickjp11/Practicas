@@ -37,7 +37,7 @@ body{
 
 section {
   width: 70%;
-  margin-top: 150px;
+  margin-top: 200px;
   border-radius: 10px;
   background-color: #2E2E2E;
 }
@@ -81,6 +81,10 @@ input {
   margin: 30px 150px;
 }
 
+footer {
+  margin-top: 100px;
+}
+
 @media screen and (max-width:400px),(max-width:415px){
     header {
       height: 50px;
@@ -94,7 +98,7 @@ input {
     }
 
     header span{
-      margin-left:90px;
+      margin-left:70px;
       line-height: 50px;
       font-size: 15px;
     }
@@ -106,15 +110,21 @@ input {
 
   section {
     width: auto;
-    margin-top: 90px;
+    margin-top: 150px;
 }
 
-  h1,h2 {
-    font-size: 14px;
+  form span {
+    margin-top: 8px;
+    font-size: 15px;
+  }
+
+  form p {
+    font-size: 12px;
   }
 
   button {
-    margin: 20px 0px 10px 115px;
+    margin: 20px 0px 10px 130px;
+    font-size: 11px;
   }
 
   input {
@@ -128,8 +138,7 @@ input {
   }
 
   footer {
-    height: 25px;
-    padding-top: 40px;
+    margin-top: 200px;
   }
 
 }

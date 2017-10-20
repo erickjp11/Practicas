@@ -90,6 +90,7 @@ select {
 }
 
 form label{
+  font-family: 'Raleway', sans-serif;
 	color:white;
 	margin-left: 150px;
 }
@@ -102,4 +103,63 @@ form label{
 .tituloform {
 	color: white;
 	font-size: 25px;
+  text-align: center;
+}
+
+@media screen and (max-width:400px),(max-width:415px){
+    header {
+      height: 50px;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    header img {
+      height: 50px;
+      border-radius: 5px;
+    }
+
+    header span {
+      margin-left: 70px;
+      line-height: 50px;
+      font-size: 15px;
+    }
+
+  ::placeholder{
+    font-size: 10px;
+  }
+
+  section {
+    width: auto;
+    margin-top: 90px;
+  }
+
+  button {
+  margin: 20px 0px 10px 0px;
+  font-size: 10px;
+  }
+
+  input {
+    height: 25px;
+    margin: 15px 70px;
+  }
+
+    select {
+    margin-left: 145px;
+    height: 25px;
+    font-size: 10px;
+  }
+
+  form label {
+    margin-left:  100px;
+    font-size: 11px;
+  }
+
+  .img input {
+    margin-left: 70px;
+    height: 25px;
+    font-size: 10px;
+  }
+
+.tituloform {
+  font-size: 15px;
 }

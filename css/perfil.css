@@ -48,6 +48,11 @@ section {
 section img {
 	width: 200px;
 	height: 200px;
+  border-radius: 3px;
+}
+
+section span {
+  font-size: 15px;
 }
 
 details {
@@ -66,6 +71,13 @@ p {
 	font-family: 'Raleway', sans-serif;
 	color:white;
   text-align: center;
+}
+
+section span {
+  font-family: 'Raleway', sans-serif;
+	color:white;
+  text-align: center;
+  font-size: 25px;
 }
 
 aside {
@@ -117,11 +129,15 @@ a {
   }
 
   section img {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
   }
 
-  p {
+  section span {
+    font-size: 17px;  
+  }
+
+  section p {
     font-size: 11px;
   }
 

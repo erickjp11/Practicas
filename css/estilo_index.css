@@ -18,7 +18,7 @@ header img{
 
 header span{
   font-family: 'Raleway', sans-serif;
-  margin-left:500px;
+  margin-left:400px;
   line-height: 90px;
   font-size: 20px;
 }
@@ -120,7 +120,7 @@ input {
 
   section {
     width: auto;
-    margin-top: 90px;
+    margin-top: 130px;
 }
 
 
@@ -144,11 +144,16 @@ input {
 
   button {
     margin: 20px 0px 10px 130px;
+    font-size: 10px;
   }
 
   input {
     height: 25px;
     margin: 30px 70px;
     font-size: 9px;
+  }
+
+  footer {
+    margin-top: 100px;
   }
 }

@@ -50,7 +50,7 @@ h1 {
   text-align: center;
 }
 
-p {
+section p {
     color:white;
   	font-family: 'Raleway', sans-serif;;
     padding: 20px;
@@ -79,7 +79,7 @@ p {
 
   section {
     width: auto;
-    margin-top:90px;
+    margin-top:150px;
 }
 
   h1 {
@@ -90,4 +90,8 @@ p {
   section p {
     font-size: 12px;
  }
+
+  footer {
+    margin-top: 200px;
+  }
  }

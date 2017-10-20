@@ -57,7 +57,7 @@ h1 {
   text-align: center;
 }
 
-p {
+section p {
     color:white;
   	font-family: 'Raleway', sans-serif;;
     padding: 20px;
@@ -87,16 +87,17 @@ p {
   section {
     width: auto;
     margin-top: 90px;
+    height: auto; 
   }
 
   .negritas {
-    font-size: 15px;
-  }
-
-  section p {
     font-size: 12px;
   }
 
+  section p {
+    font-size: 10px;
+  }
+
   h1 {
-    font-size: 16px;
+    font-size: 15px;
  }

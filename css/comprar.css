@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  height:auto;
+  height:90px;
   background-color: #F4FA58;
   border-radius: 5px;
   display: flex;
@@ -40,10 +40,17 @@ body {
 }
 
 section {
-  width: 600px;
+  width: 400px;
   margin-top: 150px;
   border-radius: 10px;
   background-color: #2E2E2E;
+}
+
+section img {
+  margin-top: 8px;
+  margin-left: 150px;
+  width: 80px;
+  background-color: white;
 }
 
 form {
@@ -55,7 +62,7 @@ form {
 	align-items: center;
 }
 
-p{
+section p{
   font-family: 'Raleway', sans-serif;
   color: #FFFFFF;
   margin-left: 20px;
@@ -79,7 +86,7 @@ input {
   height: 40px;
   border-radius: 5px;
   margin: 30px 150px;
-} 
+}
 
 select {
   font-family: 'Raleway', sans-serif;
@@ -103,4 +110,44 @@ form label{
 	color: white;
 	font-size: 25px;
 	text-align: center;
+}
+
+@media screen and (max-width:400px),(max-width:415px){
+  header {
+   height: 50px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  header img{
+   height: 50px;
+   border-radius: 5px;
+  }
+
+  header span{
+   margin-left: 70px;
+   line-height: 50px;
+   font-size: 15px;
+  }
+
+ section {
+  margin-top: 120px;
+  width: auto;
+  }
+
+  section span {
+  font-size: 12px;
+  }
+
+  section img {
+    margin-left: 75px;
+  }
+
+  section   p {
+   font-size: 10px;
+  }
+
+  footer{
+    margin-top: 250px;  
+  }
 }
