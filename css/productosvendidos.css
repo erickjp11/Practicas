@@ -1,0 +1,96 @@
+.p1 {
+	width:450px;
+	height:300px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	background-color:#2E2E2E;
+	margin: 20px 15px 20px 15px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.p1 figure img {
+  background-color: white;
+	width: 150px;
+	height: 150px;
+}
+
+.p1 div.descripcion {
+	text-align: left;
+}
+
+.tituloarticulo {
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	font-size: 14px;
+  font-style: italic;
+	letter-spacing:4px;
+	text-align:left;
+}
+
+.infocompra {
+	font-family: 'Raleway', sans-serif;
+	color:black;
+	font-size: 18px;
+	text-align:left;
+	margin-left: 10px;
+	background-color:#E2E2E2;
+	border-radius: 5px;
+}
+.sinventas {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-style:normal;
+	font-weight: lighter;
+	height: 150px;
+	color:white;
+	background-color:#2E2E2E;
+	border-radius: 5px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	margin: 2px;
+}
+
+.sinventas a{
+	font-size: 14px;
+}
+
+@media screen and (max-width:400px),(max-width:415px) {
+	.p1 {
+		width:300px;
+		height:120px;
+		font-size: 10px;
+	}
+
+	.p1 figure img {
+	  background-color: white;
+		width: 50px;
+		height: 50px;
+	}
+
+	.tituloarticulo{
+		font-size: 12px;
+		letter-spacing: 0px;
+	}
+
+	.infocompra{
+		font-size: 10px;
+		letter-spacing: 0px;
+	}
+
+	.sinventas{
+		font-size: 12px;
+	}
+
+	.sinventas a{
+		font-size: 10px;
+	}
+}
