@@ -1,0 +1,12 @@
+.error {
+  border-color: red;
+  box-shadow: 3px 3px 3px 3px red;
+  background-color: red;
+  display: none;
+  width: 35px;
+  margin-right: 35px;
+  }
+
+  .indicacion {
+    background-color: #FE2E2E;
+  }
