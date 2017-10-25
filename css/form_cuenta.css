@@ -81,6 +81,10 @@ select {
   margin: 30px 150px;
 }
 
+regError{
+  border-color: red;
+}
+
 @media screen and (max-width:400px),(max-width:415px){
     header {
       height: 50px;
