@@ -41,7 +41,7 @@ https://github.com/erickjp11/MercadoUDG.git
 
 Demo.
 ------------------
-mercadoudgmx.byethost8.com
+http://mercadoudgmx.byethost8.com
 
 
 Autores.
