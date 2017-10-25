@@ -6,8 +6,11 @@
         <link rel = "stylesheet" type = "text/css" href = "css/form_cuenta.css" >
         <link rel = "stylesheet" type = "text/css" href = "css/copyright.css" >
         <link rel = "stylesheet" type = "text/css" href = "css/boton.css" >
+        <link rel = "stylesheet" type = "text/css" href = "css/errores.css" >
         <link rel = "stylesheet" type = "text/css" href = "css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src = "js/validarForm.js"> </script>
+        <link href = "https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <title>Registrate en Mercado UDG</title>
   </head>
   <body>
@@ -19,11 +22,17 @@
           <section>
             <form>
               <h1>Crear Cuenta</h1>
-              <input type="text" class="fa" id="nombre" placeholder="&#xf007; Nombre" name="">
+              <input type="text" class="fa" id="nombre" placeholder="&#xf007; Nombre">
+              <span id="error1" class="error" >Nombre incorrecto</span>
+
               <input type="text" class="fa" id="apellidos" placeholder="&#xf2c0; Apellidos" name="">
+
               <input type="email" class="fa" placeholder="&#xf003; Correo ejem:nombre@alumnos.udg.mx" id="correo" name="">
+
               <input type="password" class="fa" id="contrasena" placeholder="&#xf023; Contraseña"name="">
+
               <input type="password" class="fa" id="conf_contrasena" placeholder="&#xf023; Confirmar contraseña"name="">
+
               <select name="">
                 <option value="0">En cuál Centro Universitario estudias?</option>
                 <optgroup label="Universidades">
@@ -36,7 +45,7 @@
                   <option value="7">CUT</option>
                 </optgroup>
             </select>
-            <button class="boton" onclick="window.location.href='principal.html'" type="submit">Crea cuenta</button>
+            <button id="crear" class="boton" onclick="window.location.href='principal.html'" type="submit">Crea cuenta</button>
         </form>
       </section>
     </div>
