@@ -7,9 +7,12 @@ $(document).ready(function(){
       $("#error1").fadeIn();
       return false;
     }
+    else if (nombre == "m") {
+      $("#error1").fadeIn();
+      return false;
+    }
     else {
       $("error1").fadeOut();
     }
   });
 });
-  
