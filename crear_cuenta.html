@@ -22,29 +22,34 @@
           <section>
             <form>
               <h1>Crear Cuenta</h1>
-              <input type="text" class="fa" id="nombre" placeholder="&#xf007; Nombre">
+              <input type="text" class="fa" id="nombre" placeholder="&#xf007; Nombre" name="nombre">
               <span id="error1" class="error">Ingrese un nombre</span>
+              <span id="error2" class="error">Ingresa un nombre válido</span>
 
-              <input type="text" class="fa" id="apellidos" placeholder="&#xf2c0; Apellidos" name="">
+              <input type="text" class="fa" id="ap" placeholder="&#xf2c0; Apellidos" name="apellido" >
+              <span id="errorap" class="error">Ingrese apellidos</span>
+              <span id="errorap2" class="error">Ingresa apellidos válidos</span>
 
-              <input type="email" class="fa" placeholder="&#xf003; Correo ejem:nombre@alumnos.udg.mx" id="correo" name="">
+              <input type="email" class="fa" id="correo" placeholder="&#xf003; Correo ejem:nombre@alumnos.udg.mx" name="correo">
+              <span id="errorCorreo" class="error">Ingrese correo válido</span>
 
-              <input type="password" class="fa" id="contrasena" placeholder="&#xf023; Contraseña"name="">
+              <input type="password" class="fa" id="contrasena" placeholder="&#xf023; Contraseña" name="contrasena">
+              <span id="errorCont" class="error">La contraseña deben tener mínimo 8 caracteres </span>
 
-              <input type="password" class="fa" id="conf_contrasena" placeholder="&#xf023; Confirmar contraseña"name="">
-
-              <select name="">
+              <input type="password" class="fa" id="conf_contrasena" placeholder="&#xf023; Confirmar contraseña" name="confirmacion">
+              <span id="errorConf" class="error">Las contraseñas no coinciden</span>
+              <span id="coinciden" class="error">Las contraseñas coinciden</span>
+              <select name="uni" id="uni">
                 <option value="0">En cuál Centro Universitario estudias?</option>
-                <optgroup label="Universidades">
-                  <option value="1">CUADD</option>
-                  <option value="2">CUCEI</option>
-                  <option value="3">CUCBA</option>
-                  <option value="4">CUCSH</option>
-                  <option value="5">CUCS</option>
-                  <option value="6">CUCEA</option>
-                  <option value="7">CUT</option>
-                </optgroup>
+                  <option value="1" selected>CUADD</option>
+                  <option value="2" selected>CUCEI</option>
+                  <option value="3" selected>CUCBA</option>
+                  <option value="4" selected>CUCSH</option>
+                  <option value="5" selected>CUCS</option>
+                  <option value="6" selected>CUCEA</option>
+                  <option value="7" selected>CUT</option>
             </select>
+              <span id="selUni" class="error">Debes elegir una opción</span>
             <button id="crear" class="boton" onclick="window.location.href='principal.html'" type="submit">Crea cuenta</button>
         </form>
       </section>
