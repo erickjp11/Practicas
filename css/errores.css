@@ -23,3 +23,14 @@
   position: relative;
   top: -33px;
 }
+
+@media screen and (max-width:400px),(max-width:415px){
+  .error {
+    margin-left: 25px;
+    font-size: 10px;
+    }
+
+    .error:before{
+      top: -23px;
+    }
+}

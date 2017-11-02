@@ -25,16 +25,17 @@
           <span id="errorNombrep" class="error">Escribe el nombre del producto</span>
           <input type="text" id="descripcion" class="fa" name="" placeholder="&#xf044;  Añade una descripción">
           <span id="errorDescripcion" class="error">Agrega una descripción</span>
-          <select name="">
+          <select name="estado" id="estado">
             <option value="0">Estado del producto</option>
-            <optgroup label="">
-              <option value="1">Nuevo</option>
-              <option value="2">Usado</option>
-            </optgroup>
+            <option value="1">Nuevo</option>
+            <option value="2">Usado</option>
           </select>
+          <span id="errorEstado" class="error">Debes elegir una opción</span>
+
           <input type="text" id="precio" class="fa" name="precio" placeholder="&#xf155;  Precio">
           <span id="errorPrecio1" class="error">Agrega el precio del producto</span>
           <span id="errorPrecio2" class="error">Ingresa solo numeros</span>
+          
           <div class="img">
             <label for="imagen">Sube una foto real de tu producto</label>
             <input type="file" name="imagen" size="22px"/>

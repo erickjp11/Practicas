@@ -156,4 +156,28 @@ $(document).ready(function(){
       $("#errorPrecio2").fadeOut();
     }
   });
+
+  $("#uni").focusout(function(){
+    var centroUni = $("#uni").val();
+
+    if (centroUni == 0){
+      $("#errorUni").fadeIn();
+      return false;
+    }
+    else {
+      $("#errorUni").fadeOut();
+    }
+  });
+
+  $("#estado").focusout(function(){
+    var estado = $("#estado").val();
+
+    if (estado == 0){
+      $("#errorEstado").fadeIn();
+      return false;
+    }
+    else {
+      $("#errorEstado").fadeOut();
+    }
+  });
 });
