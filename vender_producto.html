@@ -6,6 +6,9 @@
         <link rel = "stylesheet" type = "text/css" href = "css/venderproducto.css" >
         <link rel = "stylesheet" type = "text/css" href = "css/font-awesome.min.css">
         <link rel = "stylesheet" type = "text/css" href = "css/copyright.css" >
+        <link rel = "stylesheet" type = "text/css" href = "css/errores.css" >
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src = "js/validarForm.js"> </script>
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <title>Publicar un producto</title>
   </head>
@@ -18,8 +21,10 @@
   <section>
         <form>
           <span class="tituloform">Publicar un producto para vender</span>
-          <input type="text" id="nombre" class="fa" name="" placeholder="&#xf288; Nombre del producto">
+          <input type="text" id="nombreP" class="fa" name="" placeholder="&#xf288; Nombre del producto">
+          <span id="errorNombrep" class="error">Escribe el nombre del producto</span>
           <input type="text" id="descripcion" class="fa" name="" placeholder="&#xf044;  Añade una descripción">
+          <span id="errorDescripcion" class="error">Agrega una descripción</span>
           <select name="">
             <option value="0">Estado del producto</option>
             <optgroup label="">
@@ -28,6 +33,8 @@
             </optgroup>
           </select>
           <input type="text" id="precio" class="fa" name="precio" placeholder="&#xf155;  Precio">
+          <span id="errorPrecio1" class="error">Agrega el precio del producto</span>
+          <span id="errorPrecio2" class="error">Ingresa solo numeros</span>
           <div class="img">
             <label for="imagen">Sube una foto real de tu producto</label>
             <input type="file" name="imagen" size="22px"/>

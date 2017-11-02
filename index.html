@@ -8,6 +8,9 @@
     <link rel = "stylesheet" type = "text/css" href = "css/estilo_index.css">
     <link rel = "stylesheet" type = "text/css" href = "css/boton.css">
     <link rel = "stylesheet" type = "text/css" href = "css/font-awesome.min.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/errores.css" >
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src = "js/validarForm.js"> </script>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
 
@@ -23,7 +26,12 @@
           <h1>Bienvenido a Mercado UDG</h1>
           <h2>Inicia Sesión</h2>
           <input type="email" id="correo" class="fa" name="" placeholder="&#xf003; Correo">
+          <span id="errorCorreo1" class="error">Ingrese un correo</span>
+          <span id="errorCorreo2" class="error">Ingrese un correo válido</span>
+
           <input type="password" id="contrasena" class="fa" name="" placeholder= "&#xf023; Contraseña">
+          <span id="errorContrasena" class="error">La contraseña deben tener mínimo 8 caracteres </span>
+          
           <button class="boton" onclick="window.location.href='principal.html'" type="submit">Entrar</button>
           </form>
           <nav>

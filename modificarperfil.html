@@ -6,6 +6,9 @@
         <link rel = "stylesheet" type = "text/css" href = "css/boton.css" >
         <link rel = "stylesheet" type = "text/css" href = "css/font-awesome.min.css">
         <link rel = "stylesheet" type = "text/css" href = "css/copyright.css" >
+        <link rel = "stylesheet" type = "text/css" href = "css/errores.css" >
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src = "js/validarForm.js"> </script>
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <title>Publicar un producto</title>
   </head>
@@ -23,10 +26,23 @@
             <input type="file" name="imagen" size="22px">
           </div>
           <input type="text" class="fa" id="nombre" placeholder="&#xf007; Nombre" name="">
-          <input type="text" class="fa" id="apellidos" placeholder="&#xf2c0; Apellidos" name="">
+          <span id="error1" class="error">Ingrese un nombre</span>
+          <span id="error2" class="error">Ingresa un nombre válido</span>
+          <span id="error3" class="error">El nombre es demasiado corto</span>
+
+          <input type="text" class="fa" id="apellido" placeholder="&#xf2c0; Apellidos" name="">
+          <span id="errorapellido1" class="error">Ingrese apellidos</span>
+          <span id="errorapellido2" class="error">Ingresa apellidos válidos</span>
+
           <input type="password" class="fa" id="contrasena_anterior" placeholder="&#xf023; Contraseña anterior"name="">
-          <input type="password" class="fa" id="contrasena_nueva" placeholder="&#xf023; Contraseña nueva"name="">
+          <span id="errorContrasenaAnt" class="error">Ingresa tu contraseña actual</span>
+
+          <input type="password" class="fa" id="contrasena" placeholder="&#xf023; Contraseña nueva"name="">
+          <span id="errorContrasena" class="error">La contraseña deben tener mínimo 8 caracteres </span>
+
           <input type="password" class="fa" id="conf_contrasena" placeholder="&#xf023; Confirmar contraseña"name="">
+          <span id="errorConf1" class="error">Confirme la contraseña</span>
+          <span id="errorConf2" class="error">Las contraseñas no coinciden</span>
           <select name="">
             <option value="0">En cuál Centro Universitario estudias?</option>
             <optgroup label="Universidades">

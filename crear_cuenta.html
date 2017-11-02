@@ -25,20 +25,22 @@
               <input type="text" class="fa" id="nombre" placeholder="&#xf007; Nombre" name="nombre">
               <span id="error1" class="error">Ingrese un nombre</span>
               <span id="error2" class="error">Ingresa un nombre válido</span>
+              <span id="error3" class="error">El nombre es demasiado corto</span>
 
-              <input type="text" class="fa" id="ap" placeholder="&#xf2c0; Apellidos" name="apellido" >
-              <span id="errorap" class="error">Ingrese apellidos</span>
-              <span id="errorap2" class="error">Ingresa apellidos válidos</span>
+              <input type="text" class="fa" id="apellido" placeholder="&#xf2c0; Apellidos" name="apellido" >
+              <span id="errorapellido1" class="error">Ingrese apellidos</span>
+              <span id="errorapellido2" class="error">Ingresa apellidos válidos</span>
 
               <input type="email" class="fa" id="correo" placeholder="&#xf003; Correo ejem:nombre@alumnos.udg.mx" name="correo">
-              <span id="errorCorreo" class="error">Ingrese correo válido</span>
+              <span id="errorCorreo1" class="error">Ingrese un correo</span>
+              <span id="errorCorreo2" class="error">Ingrese un correo válido</span>
 
               <input type="password" class="fa" id="contrasena" placeholder="&#xf023; Contraseña" name="contrasena">
-              <span id="errorCont" class="error">La contraseña deben tener mínimo 8 caracteres </span>
+              <span id="errorContrasena" class="error">La contraseña deben tener mínimo 8 caracteres </span>
 
               <input type="password" class="fa" id="conf_contrasena" placeholder="&#xf023; Confirmar contraseña" name="confirmacion">
-              <span id="errorConf" class="error">Las contraseñas no coinciden</span>
-              <span id="coinciden" class="error">Las contraseñas coinciden</span>
+              <span id="errorConf1" class="error">Confirme la contraseña</span>
+              <span id="errorConf2" class="error">Las contraseñas no coinciden</span>
               <select name="uni" id="uni">
                 <option value="0">En cuál Centro Universitario estudias?</option>
                   <option value="1" selected>CUADD</option>
@@ -50,7 +52,7 @@
                   <option value="7" selected>CUT</option>
             </select>
               <span id="selUni" class="error">Debes elegir una opción</span>
-            <button id="crear" class="boton" onclick="window.location.href='principal.html'" type="submit">Crea cuenta</button>
+            <button id="crear" class="boton" onclick=# type="submit">Crea cuenta</button>
         </form>
       </section>
     </div>
