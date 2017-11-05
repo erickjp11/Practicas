@@ -26,7 +26,8 @@
 
 @media screen and (max-width:400px),(max-width:415px){
   .error {
-    margin-left: 25px;
+    width: 50%;
+    margin-left: 70px;
     font-size: 10px;
     }
 

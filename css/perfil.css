@@ -105,7 +105,161 @@ a {
 	margin: 2px;
 }
 
-@media screen and (max-width:400px),(max-width:415px){
+
+@media (max-width:800px){
+  header {
+    height: 90px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  header img{
+    height: 90px;
+    border-radius: 5px;
+  }
+
+  header span{
+    margin-left:200px;
+    line-height: 90px;
+    font-size: 19px;
+  }
+
+  section {
+    width: auto;  
+    margin-top: 150px;
+  }
+
+  section img {
+    width: 100px;
+    height: 100px;
+  }
+
+  section span {
+    font-size: 21px;
+  }
+
+  section p {
+    font-size: 15px;
+  }
+
+  .nombre {
+    font-size: 19px;
+  }
+
+  .opcperfil {
+    margin-top: 90px;
+    height: auto;
+    font-size: 18px;
+  }
+
+  footer {
+    margin-top: 400px;
+  }
+}
+
+@media (max-width:640px){
+  header {
+    height: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  header img{
+    height: 70px;
+    border-radius: 5px;
+  }
+
+  header span{
+    margin-left:175px;
+    line-height: 70px;
+    font-size: 15px;
+  }
+
+  section {
+    width: auto;
+    margin-top: 90px;
+  }
+
+  section img {
+    width: 80px;
+    height: 80px;
+  }
+
+  section span {
+    font-size: 18px;
+  }
+
+  section p {
+    font-size: 12px;
+  }
+
+  .nombre {
+    font-size: 14px;
+  }
+
+  .opcperfil {
+    margin-top: 40px;
+    height: auto;
+    font-size: 14px;
+  }
+
+  footer {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width:415px){
+  header {
+    height: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  header img{
+    height: 60px;
+    border-radius: 5px;
+  }
+
+  header span{
+    margin-left:75px;
+    line-height: 60px;
+    font-size: 15px;
+  }
+
+  section {
+    width: auto;
+    margin-top: 90px;
+  }
+
+  section img {
+    width: 70px;
+    height: 70px;
+  }
+
+  section span {
+    font-size: 17px;
+  }
+
+  section p {
+    font-size: 11px;
+  }
+
+  .nombre {
+    font-size: 13px;
+  }
+
+  .opcperfil {
+    margin-top: 30px;
+    height: auto;
+    font-size: 12px;
+  }
+
+  footer {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width:360px){
   header {
     height: 50px;
     display: flex;
@@ -134,7 +288,7 @@ a {
   }
 
   section span {
-    font-size: 17px;  
+    font-size: 17px;
   }
 
   section p {
@@ -151,4 +305,7 @@ a {
     font-size: 12px;
   }
 
+  footer {
+    margin-top: 200px;
+  }
 }

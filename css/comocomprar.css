@@ -17,7 +17,7 @@ header img{
 
 header span{
   font-family: 'Raleway', sans-serif;
-  margin-left:200px;
+  margin-left:350px;
   line-height: 90px;
   font-size: 20px;
   color: black;
@@ -68,7 +68,121 @@ section p {
 		text-align: justify;
 }
 
-@media screen and (max-width:400px),(max-width:415px){
+@media (max-width:800px){
+  header {
+   height: 90px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  header img{
+   height: 90px;
+   border-radius: 5px;
+  }
+
+  header span{
+   margin-left: 225px;
+   line-height: 90px;
+   font-size: 19px;
+  }
+
+ section {
+  margin-top: 200px;
+  width: auto;
+  }
+
+  section span {
+  font-size: 17px;
+  }
+
+  section p {
+    margin-left: 10px;
+    margin-right: 10px;
+   font-size: 15px;
+  }
+
+  footer {
+    margin-top: 300px;
+  }
+}
+
+@media (max-width:700px){
+  header {
+   height: 70px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  header img{
+   height: 70px;
+   border-radius: 5px;
+  }
+
+  header span{
+   margin-left: 175px;
+   line-height: 70px;
+   font-size: 17px;
+  }
+
+ section {
+  margin-top: 170px;
+  width: auto;
+  }
+
+  section span {
+  font-size: 15px;
+  }
+
+  section p {
+    margin-left: 10px;
+    margin-right: 10px;
+   font-size: 13px;
+  }
+
+  footer {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width:415px){
+  header {
+   height: 50px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  header img{
+   height: 50px;
+   border-radius: 5px;
+  }
+
+  header span{
+   margin-left: 100px;
+   line-height: 50px;
+   font-size: 15px;
+  }
+
+ section {
+  margin-top: 150px;
+  width: auto;
+  }
+
+  section span {
+  font-size: 13px;
+  }
+
+  section p {
+    margin-left: 10px;
+    margin-right: 10px;
+   font-size: 11px;
+  }
+
+  footer {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width:400px){
   header {
    height: 50px;
    display: flex;

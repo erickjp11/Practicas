@@ -17,7 +17,7 @@ header img{
 
 header span{
   font-family: 'Raleway', sans-serif;
-  margin-left:200px;
+  margin-left: 375px;
   line-height: 90px;
 	margin-top: 0px;
   font-size: 20px;
@@ -37,7 +37,7 @@ header span{
 section {
   margin-top: 150px;
 	width: 500px;
-  height: 400px;
+  height: auto;
 	border-radius: 5px;
   background-color: #2E2E2E;
 	display: flex;
@@ -52,6 +52,7 @@ body {
 footer {
   height: 30px;
   padding-top: 40px;
+  margin-top: 30px;
 }
 
 section span {
@@ -69,7 +70,7 @@ section p {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     margin-left: 30px;
-    margin-right: 30px; 
+    margin-right: 30px;
 		text-align: justify;
 }
 
@@ -80,34 +81,142 @@ section h1 {
 	text-align: center;
 }
 
-@media screen and (max-width:400px),(max-width:415px){
-header {
- height: 50px;
- display: flex;
- flex-wrap: wrap;
+@media (max-width:800px){
+  header {
+   height: 90px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  header img{
+   height: 90px;
+   border-radius: 5px;
+  }
+
+  header span{
+   margin-left: 200px;
+   line-height: 90px;
+   font-size: 19px;
+  }
+
+  section {
+  margin-top: 170px;
+  width: auto;  
+  }
+
+  section span {
+  font-size: 16px;
+  }
+
+  section p {
+   font-size: 14px;
+  }
+
+  footer {
+    margin-top: 300px;
+  }
 }
 
-header img{
- height: 50px;
- border-radius: 5px;
+@media (max-width:700px){
+  header {
+   height: 70px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  header img{
+   height: 70px;
+   border-radius: 5px;
+  }
+
+  header span{
+   margin-left: 170px;
+   line-height: 70px;
+   font-size: 17px;
+  }
+
+  section {
+  margin-top: 100px;
+  width: auto;
+  }
+
+  section span {
+  font-size: 14px;
+  }
+
+  section p {
+   font-size: 12px;
+  }
+
+  footer {
+    margin-top: 200px;
+  }
 }
 
-header span{
- margin-left: 70px;
- line-height: 50px;
- font-size: 15px;
+@media (max-width:415px){
+  header {
+   height: 50px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  header img{
+   height: 50px;
+   border-radius: 5px;
+  }
+
+  header span{
+   margin-left: 90px;
+   line-height: 50px;
+   font-size: 15px;
+  }
+
+  section {
+  margin-top: 90px;
+  width: auto;
+  }
+
+  section span {
+  font-size: 12px;
+  }
+
+  section p {
+   font-size: 10px;
+  }
+
+  footer {
+    margin-top: 150px;
+  }
 }
 
-section {
-margin-top: 90px;
-width: auto;
-}
+@media (max-width:400px){
+  header {
+   height: 50px;
+   display: flex;
+   flex-wrap: wrap;
+  }
 
-section span {
-font-size: 12px;
-}
+  header img{
+   height: 50px;
+   border-radius: 5px;
+  }
 
-section   p {
- font-size: 10px;
-}
-}
+  header span{
+   margin-left: 70px;
+   line-height: 50px;
+   font-size: 15px;
+  }
+
+  section {
+  margin-top: 90px;
+  width: auto;
+  }
+
+  section span {
+  font-size: 12px;
+  }
+
+  section   p {
+   font-size: 10px;
+  }
+  }

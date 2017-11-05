@@ -113,7 +113,97 @@ form label{
 	text-align: center;
 }
 
-@media screen and (max-width:400px),(max-width:415px){
+@media(max-width:800px){
+    header {
+      height: 90px;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    header img{
+      height: 90px;
+      border-radius: 5px;
+    }
+
+    header span{
+      margin-left:220px;
+      line-height: 90px;
+      font-size: 19px;
+    }
+
+    section {
+     width: 150px;
+      margin-top: 250px;
+    }
+
+    section img {
+      width: 90px;
+      margin-left:30px;
+    }
+
+    section p {
+      font-size: 15px;
+    }
+
+    summary {
+      font-size: 17px;
+    }
+
+    .tituloarticulo {
+      font-size: 19px;
+    }
+
+    footer {
+      margin-top: 350px;
+    }
+}
+
+@media(max-width:700px){
+    header {
+      height: 70px;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    header img{
+      height: 70px;
+      border-radius: 5px;
+    }
+
+    header span{
+      margin-left:175px;
+      line-height: 70px;
+      font-size: 17px;
+    }
+
+    section {
+     width: 150px;
+      margin-top: 200px;
+    }
+
+    section img {
+      width: 90px;
+      margin-left:30px;
+    }
+
+    section p {
+      font-size: 13px;
+    }
+
+    summary {
+      font-size: 15px;
+    }
+
+    .tituloarticulo {
+      font-size: 17px;
+    }
+
+    footer {
+      margin-top: 250px;
+    }
+}
+
+@media(max-width:415px){
     header {
       height: 50px;
       display: flex;
@@ -156,3 +246,49 @@ form label{
     footer {
       margin-top: 250px;
     }
+}
+
+@media(max-width:400px){
+    header {
+      height: 50px;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    header img{
+      height: 50px;
+      border-radius: 5px;
+    }
+
+    header span{
+      margin-left:70px;
+      line-height: 50px;
+      font-size: 15px;
+    }
+
+    section {
+     width: 150px;
+      margin-top: 200px;
+    }
+
+    section img {
+      width: 50px;
+      margin-left:50px;
+    }
+
+    section p {
+      font-size: 11px;
+    }
+
+    summary {
+      font-size: 13px;
+    }
+
+    .tituloarticulo {
+      font-size: 15px;
+    }
+
+    footer {
+      margin-top: 250px;
+    }
+}
