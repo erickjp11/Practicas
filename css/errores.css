@@ -24,7 +24,31 @@
   top: -33px;
 }
 
-@media screen and (max-width:400px),(max-width:415px){
+@media(max-width:800px){
+  .error {
+    width: 55%;
+    margin-left: 100px;
+    font-size: 11px;
+    }
+
+    .error:before{
+      top: -23px;
+    }
+}
+
+@media(max-width:700px){
+  .error {
+    width: 50%;
+    margin-left: 100px;
+    font-size: 10px;
+    }
+
+    .error:before{
+      top: -23px;
+    }
+}
+
+@media(max-width:400px),(max-width:415px){
   .error {
     width: 50%;
     margin-left: 70px;

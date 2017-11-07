@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "stylesheet" type = "text/css" href = "css/modificar.css" >
+        <link rel = "stylesheet" type = "text/css" href = "css/boton.css" >
+        <link rel = "stylesheet" type = "text/css" href = "css/font-awesome.min.css">
+        <link rel = "stylesheet" type = "text/css" href = "css/copyright.css" >
+        <link rel = "stylesheet" type = "text/css" href = "css/errores.css" >
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src = "js/validarForm.js"> </script>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <title>Publicar un producto</title>
+  </head>
+  <body>
+    <header>
+        <a href="principal.html"> <img src="img/logotipo.jpeg"> </a>
+        <span>Mercado UDG</span>
+
+    </header>
+<div class="caja">
+  <section>
+        <form>
+          <span class="tituloform">Modificar perfil</span>
+          <img src="img/fotoperfil.jpg">
+          <div class="img">
+            <input type="file" name="imagen" size="22px">
+          </div>
+          <input type="text" class="fa" id="nombre" placeholder="&#xf007; Nombre" name="">
+          <span id="error1" class="error">Ingrese un nombre</span>
+          <span id="error2" class="error">Ingresa un nombre válido</span>
+          <span id="error3" class="error">El nombre es demasiado corto</span>
+
+          <input type="text" class="fa" id="apellido" placeholder="&#xf2c0; Apellidos" name="">
+          <span id="errorapellido1" class="error">Ingrese apellidos</span>
+          <span id="errorapellido2" class="error">Ingresa apellidos válidos</span>
+
+          <input type="password" class="fa" id="contrasena_anterior" placeholder="&#xf023; Contraseña anterior"name="">
+          <span id="errorContrasenaAnt" class="error">Ingresa tu contraseña actual</span>
+
+          <input type="password" class="fa" id="contrasena" placeholder="&#xf023; Contraseña nueva"name="">
+          <span id="errorContrasena" class="error">La contraseña deben tener mínimo 8 caracteres </span>
+
+          <input type="password" class="fa" id="conf_contrasena" placeholder="&#xf023; Confirmar contraseña"name="">
+          <span id="errorConf1" class="error">Confirme la contraseña</span>
+          <span id="errorConf2" class="error">Las contraseñas no coinciden</span>
+          <select name="">
+            <option value="0">En cuál Centro Universitario estudias?</option>
+            <optgroup label="Universidades">
+              <option value="1">CUADD</option>
+              <option value="2">CUCEI</option>
+              <option value="3">CUCBA</option>
+              <option value="4">CUCSH</option>
+              <option value="5">CUCS</option>
+              <option value="6">CUCEA</option>
+              <option value="7">CUT</option>
+            </optgroup>
+        </select>
+          <button class="boton" type="submit">Guardar Cambios</button>
+        </form>
+      </section>
+    </div>
+        <footer>
+          <div class="copyright">
+            <p>Derechos Reservados ®</p>
+            <p>Hecho por Erick Jiménez y Mariana Lomelí</p>
+            <p>GDL, Jalisco, México</p>
+          </div>
+        </footer>
+      </body>
+
+</html>
