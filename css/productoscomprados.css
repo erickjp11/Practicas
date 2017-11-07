@@ -1,31 +1,3 @@
-header {
-  width: 100%;
-  height:auto;
-  background-color: #F4FA58;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  position: fixed;
-}
-
-header img{
-  height: 90px;
-  border-radius: 5px;
-}
-
-header span{
-  font-family: 'Raleway', sans-serif;
-  margin-left:300px;
-  line-height: 90px;
-  font-size: 20px;
-}
-
-body {
-  background-color: black;
-}
-
 .tt li a i {
   font-size:30px;
   color: #00aced;

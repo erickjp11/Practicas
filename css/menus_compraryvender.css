@@ -78,35 +78,9 @@ li a{
 	list-style: none;
 }
 
-@media(max-width:950px){
-	.menuprincipal{
-		margin-top: 180px;
-	}
-
-	.menuprincipal li a{
-		font-size: 14px;
-	}
-
-	.titulopagina {
-		font-size: 22px;
-		height: 30px;
-	}
-
-	.menuinferior li {
-		font-size: 16px;
-	}
-
-	.menuinferior span {
-		font-size: 17px;
-	}
-
-	.menuinferior a{
-		font-size: 15px;
-	}
-}
 @media(max-width:800px){
 	.menuprincipal{
-		margin-top: 180px;
+		margin-top: 115px;
 	}
 
 	.menuprincipal li a{
@@ -133,7 +107,7 @@ li a{
 
 @media(max-width:700px){
 	.menuprincipal{
-		margin-top: 180px;
+		margin-top: 115px;
 	}
 
 	.menuprincipal li a{
@@ -158,35 +132,9 @@ li a{
 	}
 }
 
-@media(max-width:600px){
-	.menuprincipal{
-		margin-top: 215px;
-	}
-
-	.menuprincipal li a{
-		font-size: 14px;
-	}
-
-	.titulopagina {
-		font-size: 22px;
-		height: 30px;
-	}
-
-	.menuinferior li {
-		font-size: 16px;
-	}
-
-	.menuinferior span {
-		font-size: 17px;
-	}
-
-	.menuinferior a{
-		font-size: 15px;
-	}
-}
 @media(max-width:415px){
 	.menuprincipal{
-		margin-top: 180px;
+		margin-top: 100px;
 	}
 
 	.menuprincipal li a{
@@ -213,7 +161,7 @@ li a{
 
 @media(max-width:400px){
 	.menuprincipal{
-		margin-top: 175px;
+		margin-top: 80px;
 	}
 
 	.menuprincipal li a{
